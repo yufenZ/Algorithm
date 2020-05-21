@@ -9,7 +9,7 @@
 #ifndef InsertionSort_h
 #define InsertionSort_h
 
-//对整个数组进行快速排序
+//对整个数组进行插入排序
 template<typename T>
 void insertionSort(T arr[], int n){
     for(int i=1; i<n; i++){
@@ -22,7 +22,7 @@ void insertionSort(T arr[], int n){
     return;
 }
 
-//对数组的特定区间范围内进行快速排序
+//对数组的特定区间范围内进行插入排序
 template<typename T>
 void insertionSort(T arr[], int l, int r){
     for (int  i=l+1; i <= r; i++){
